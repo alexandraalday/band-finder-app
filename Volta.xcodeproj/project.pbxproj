@@ -47,6 +47,7 @@
 		A8CDCF7B1FB4251200A40220 /* VoltaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoltaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CDCF7F1FB4251200A40220 /* VoltaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltaUITests.swift; sourceTree = "<group>"; };
 		A8CDCF811FB4251200A40220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8CDCF8D1FB42E4100A40220 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		A8CDCF531FB4251100A40220 = {
 			isa = PBXGroup;
 			children = (
+				A8CDCF8D1FB42E4100A40220 /* README.md */,
 				A8CDCF5E1FB4251100A40220 /* Volta */,
 				A8CDCF731FB4251200A40220 /* VoltaTests */,
 				A8CDCF7E1FB4251200A40220 /* VoltaUITests */,
