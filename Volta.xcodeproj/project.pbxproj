@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A8CDCF601FB4251100A40220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CDCF5F1FB4251100A40220 /* AppDelegate.swift */; };
-		A8CDCF621FB4251100A40220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CDCF611FB4251100A40220 /* ViewController.swift */; };
 		A8CDCF651FB4251100A40220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CDCF631FB4251100A40220 /* Main.storyboard */; };
 		A8CDCF671FB4251100A40220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8CDCF661FB4251100A40220 /* Assets.xcassets */; };
 		A8CDCF6A1FB4251100A40220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CDCF681FB4251100A40220 /* LaunchScreen.storyboard */; };
-		A8CDCF751FB4251200A40220 /* VoltaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CDCF741FB4251200A40220 /* VoltaTests.swift */; };
 		A8CDCF801FB4251200A40220 /* VoltaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CDCF7F1FB4251200A40220 /* VoltaUITests.swift */; };
+		A8CDCF8F1FB540AE00A40220 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CDCF8E1FB540AE00A40220 /* SignUpViewController.swift */; };
+		A8CDCF901FB5420E00A40220 /* VoltaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CDCF741FB4251200A40220 /* VoltaTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		A8CDCF5C1FB4251100A40220 /* Volta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Volta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CDCF5F1FB4251100A40220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8CDCF611FB4251100A40220 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8CDCF641FB4251100A40220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8CDCF661FB4251100A40220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8CDCF691FB4251100A40220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,6 +47,7 @@
 		A8CDCF7F1FB4251200A40220 /* VoltaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoltaUITests.swift; sourceTree = "<group>"; };
 		A8CDCF811FB4251200A40220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8CDCF8D1FB42E4100A40220 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A8CDCF8E1FB540AE00A40220 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +100,11 @@
 			isa = PBXGroup;
 			children = (
 				A8CDCF5F1FB4251100A40220 /* AppDelegate.swift */,
-				A8CDCF611FB4251100A40220 /* ViewController.swift */,
+				A8CDCF681FB4251100A40220 /* LaunchScreen.storyboard */,
 				A8CDCF631FB4251100A40220 /* Main.storyboard */,
 				A8CDCF661FB4251100A40220 /* Assets.xcassets */,
-				A8CDCF681FB4251100A40220 /* LaunchScreen.storyboard */,
 				A8CDCF6B1FB4251100A40220 /* Info.plist */,
+				A8CDCF8E1FB540AE00A40220 /* SignUpViewController.swift */,
 			);
 			path = Volta;
 			sourceTree = "<group>";
@@ -261,8 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8CDCF621FB4251100A40220 /* ViewController.swift in Sources */,
+				A8CDCF8F1FB540AE00A40220 /* SignUpViewController.swift in Sources */,
 				A8CDCF601FB4251100A40220 /* AppDelegate.swift in Sources */,
+				A8CDCF901FB5420E00A40220 /* VoltaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8CDCF751FB4251200A40220 /* VoltaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

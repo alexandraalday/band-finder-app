@@ -13,12 +13,12 @@
         <!--Splash Page-->
         <scene sceneID="gjd-xN-lNi">
             <objects>
-                <viewController title="Splash Page" id="EaT-X6-9PQ" sceneMemberID="viewController">
+                <viewController title="Splash Page" id="EaT-X6-9PQ" customClass="SignUpViewController" customModule="Volta" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RJW-ZK-rc5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Splash Page" translatesAutoresizingMaskIntoConstraints="NO" id="Fh1-NL-fbg">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fh1-NL-fbg">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -26,6 +26,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="meh-Hh-Nba"/>
                     </view>
+                    <connections>
+                        <outlet property="splashImageView" destination="Fh1-NL-fbg" id="4Df-7C-wKx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oca-NA-q9Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -34,7 +37,7 @@
         <!--Sign Up A-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Sign Up A" id="BYZ-38-t0r" customClass="ViewController" customModule="Volta" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Sign Up A" id="BYZ-38-t0r" customClass="SignUpViewController" customModule="Volta" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -119,19 +122,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <keyCommands>
                         <keyCommand/>
                     </keyCommands>
+                    <connections>
+                        <outlet property="NextButton" destination="Hxh-VV-kLM" id="lOE-5d-Ugj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Splash Page" width="375" height="667"/>
-    </resources>
 </document>
